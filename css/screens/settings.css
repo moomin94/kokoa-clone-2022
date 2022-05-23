@@ -1,0 +1,23 @@
+.settings__setting {
+  padding: 20px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  font-size: 18px;
+  font-weight: 500;
+  opacity: 0.8;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  justify-content: space-between;
+}
+.settings__setting:hover {
+  background-color: var(--color);
+}
+.settings__setting i {
+  margin: 0 20px;
+}
+.settings__setting .version {
+  font-size: 15px;
+  opacity: 0.7;
+  margin-right: 15px;
+}
