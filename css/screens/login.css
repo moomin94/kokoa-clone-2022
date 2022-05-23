@@ -1,0 +1,49 @@
+.welcome-header {
+  margin: 120px 0 90px 0;
+  text-align: center;
+}
+.welcome-header__title {
+  margin-bottom: 40px;
+  font-size: 25px;
+  font-weight: 600;
+}
+.welcome-header__text {
+  line-height: 1.2;
+  opacity: 0.7;
+  font-weight: 500;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  margin: 0 20px;
+}
+.login-form input {
+  padding: 18px 5px;
+  font-size: 17px;
+  margin-bottom: 20px;
+  transition: border-color 0.3s ease-in-out;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+}
+.login-form__input {
+  border: 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+.login-form__input::placeholder {
+  color: rgba(0, 0, 0, 0.3);
+}
+.login-form__btn {
+  border: 0;
+  background-color: var(--color);
+  border-radius: 10px;
+  cursor: pointer;
+}
+.login-form__input:focus {
+  border-color: var(--color);
+}
+.login-form__a {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+}
