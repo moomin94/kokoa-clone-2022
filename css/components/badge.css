@@ -1,0 +1,7 @@
+.badge {
+  background-color: tomato;
+  padding: 5px 10px;
+  border-radius: 50%;
+  color: white;
+  font-weight: 600;
+}

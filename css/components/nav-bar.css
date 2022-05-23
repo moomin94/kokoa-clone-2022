@@ -18,17 +18,17 @@
   position: relative;
 }
 .nav__notification {
-  background-color: tomato;
-  padding: 5px 10px;
-  border-radius: 50%;
   position: absolute;
   top: -7px;
   left: 15px;
-  color: white;
-  font-weight: 600;
 }
 .dot {
+  background-color: tomato;
+  border-radius: 50%;
+  color: white;
+  font-weight: 600;
   padding: 3.5px;
+  position: absolute;
   top: -2px;
   left: 30px;
 }
