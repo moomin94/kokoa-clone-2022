@@ -17,7 +17,9 @@
   font-size: 15px;
   font-weight: 500;
 }
-
+.open-chat {
+  margin-bottom: 100px;
+}
 .open-chat__header {
   display: flex;
   justify-content: space-between;
